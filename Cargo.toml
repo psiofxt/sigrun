@@ -1,0 +1,14 @@
+[package]
+name = "sigrun"
+version = "0.1.0"
+authors = ["Andrew <wodanar@protonmail.com>"]
+edition = "2018"
+
+[features]
+rand = ["secp256k1/rand"]
+
+
+[dependencies]
+bitcoin = "0.23.0"
+secp256k1 = "0.17.2"
+hdwallet = "0.2.2"
